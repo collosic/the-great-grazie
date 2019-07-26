@@ -5,5 +5,9 @@
  */
 
 module.exports = {
+  siteMetadata: {
+    title: 'My Wonderful Blog !!!',
+    author: 'Christian Collosi',
+  },
   plugins: ['gatsby-plugin-sass'],
 };
