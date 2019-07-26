@@ -1,20 +1,17 @@
-import React from "react"
-import { Link } from "gatsby"
-import Footer from "../components/footer"
-import Header from "../components/header"
+import React from 'react';
+import { Link } from 'gatsby';
+import Layout from '../components/layout';
 
-const IndexPage = () => {
-  return (
-    <div>
-      <Header />
-      <h1>Hello</h1>
-      <h2>I'm Christian and I'm a dev</h2>
-      <p>
-        Need a developer? <Link to="/contact">Contact me.</Link>
-      </p>
-      <Footer />
-    </div>
-  )
-}
+const IndexPage = () => (
+  <Layout>
+    <h1>Hello</h1>
+    <h2>I'm Christian and I'm a dev</h2>
+    <p>
+      Need a developer?
+      {' '}
+      <Link to="/contact">Contact me.</Link>
+    </p>
+  </Layout>
+);
 
-export default IndexPage
+export default IndexPage;

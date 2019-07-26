@@ -1,23 +1,21 @@
-import React from "react"
-import Footer from "../components/footer"
-import Header from "../components/header"
+import React from 'react';
+import Layout from '../components/layout';
 
-const ContactPage = () => {
-  return (
-    <div>
-      <Header />
+const ContactPage = () => (
+  <div>
+    <Layout>
       <h1>Contact</h1>
       <p>collosi@gmail.com</p>
       <br />
       <p>
-        Here's my{" "}
+        Here's my
+        {' '}
         <a href="https://twitter.com/ccollosi" target="_blank">
           Twitter
         </a>
       </p>
-      <Footer />
-    </div>
-  )
-}
+    </Layout>
+  </div>
+);
 
-export default ContactPage
+export default ContactPage;
