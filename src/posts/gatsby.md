@@ -5,6 +5,8 @@ date: '2019-07-26'
 
 I just started learning Gatsby
 
+![Binoculars](./binoculars.jpg)
+
 ## Topics I learned
 
 1. Gatsby

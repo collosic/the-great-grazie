@@ -22,3 +22,5 @@ const Blog = props => (
     <div dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }} />
   </Layout>
 );
+
+export default Blog;
