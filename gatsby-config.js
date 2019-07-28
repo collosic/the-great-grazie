@@ -6,7 +6,7 @@
 
 module.exports = {
   siteMetadata: {
-    title: 'My Wonderful Blog !!!',
+    title: 'The Great Grazie',
     author: 'Christian Collosi',
   },
   plugins: [

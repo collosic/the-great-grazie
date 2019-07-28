@@ -16,14 +16,14 @@ const Header = () => {
 
   return (
     <header className={headerStyles.header}>
-      <h1>
+      <h1 className={headerStyles.titleHeader}>
         <Link className={headerStyles.title} to="/">
           {data.site.siteMetadata.title}
         </Link>
       </h1>
       <nav>
         <ul className={headerStyles.navList}>
-          <li>
+          <li className={headerStyles.navLi}>
             <Link
               className={headerStyles.navItem}
               activeClassName={headerStyles.activeNavItem}
@@ -32,7 +32,7 @@ const Header = () => {
               Home
             </Link>
           </li>
-          <li>
+          <li className={headerStyles.navLi}>
             <Link
               className={headerStyles.navItem}
               activeClassName={headerStyles.activeNavItem}
@@ -41,7 +41,7 @@ const Header = () => {
               Blog
             </Link>
           </li>
-          <li>
+          <li className={headerStyles.navLi}>
             <Link
               className={headerStyles.navItem}
               activeClassName={headerStyles.activeNavItem}
@@ -50,7 +50,7 @@ const Header = () => {
               About
             </Link>
           </li>
-          <li>
+          <li className={headerStyles.navLi}>
             <Link
               className={headerStyles.navItem}
               activeClassName={headerStyles.activeNavItem}
