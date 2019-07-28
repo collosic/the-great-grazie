@@ -10,6 +10,7 @@ module.exports = {
     author: 'Christian Collosi',
   },
   plugins: [
+    'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-source-contentful',
       options: {
